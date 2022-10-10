@@ -11,7 +11,7 @@ print('''Choose character set for password from these:
 
 characterList = ""
 
-# Getting character set for password
+# Getting character set for password, can not be empty !!
 while(True):
 	choice = int(input("Pick a number: "))
 	if(choice == 1):
